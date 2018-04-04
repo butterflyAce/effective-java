@@ -23,4 +23,12 @@ public class Person {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    public Person() {
+    }
+
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
 }

@@ -13,4 +13,8 @@ public class PersonFactory {
 //        Person person = new Person();
         return person;
     }
+
+    public static Boolean valueof(boolean b){
+        return b ? Boolean.TRUE : Boolean.FALSE;
+    }
 }
